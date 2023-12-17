@@ -57,7 +57,7 @@ def prepare_environment():
 
 model_filenames = [
     ('juggernautXL_version6Rundiffusion.safetensors',
-     'https://huggingface.co/lllyasviel/fav_models/blob/main/fav/juggernautXL_version6Rundiffusion.safetensors')
+     'https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors')
 ]
 
 clip_vision_filenames = [
