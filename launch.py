@@ -60,17 +60,11 @@ model_filenames = [
      'https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors')
 ]
 
-upscaler_filenames = [
-    ('fooocus_upscaler_s409985e5.bin',
-     'https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_upscaler_s409985e5.bin')
-]
 
 
 def download_models():
     for file_name, url in model_filenames:
         load_file_from_url(url=url, model_dir=modelfile_path, file_name=file_name)
-    for file_name, url in upscaler_filenames:
-        load_file_from_url(url=url, model_dir=upscale_models_path, file_name=file_name)
 
     load_file_from_url(
         url='https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_expansion.bin',
