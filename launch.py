@@ -57,35 +57,35 @@ def prepare_environment():
 
 model_filenames = [
     ('sd_xl_base_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors'),
+     'https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors'),
     ('sd_xl_refiner_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors')
+     'https://hingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors')
 ]
 
 lora_filenames = [
     ('sd_xl_offset_example-lora_1.0.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors')
+     'https://hingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors')
 ]
 
 clip_vision_filenames = [
     ('clip_vision_g.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors')
+     'https://hingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors')
 ]
 
 controlnet_filenames = [
     ('control-lora-canny-rank128.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors'),
+     'https://huingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors'),
     ('control-lora-canny-rank256.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors'),
+     'https://hingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors'),
     ('control-lora-depth-rank128.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors'),
+     'https://hingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors'),
     ('control-lora-depth-rank256.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors')
+     'https://hingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors')
 ]
 
 vae_approx_filenames = [
     ('xlvaeapp.pth',
-     'https://huggingface.co/lllyasviel/misc/resolve/main/xlvaeapp.pth'),
+     'https://hingface.co/lllyasviel/misc/resolve/main/xlvaeapp.pth'),
     ('taesd_decoder.pth',
      'https://github.com/madebyollin/taesd/raw/main/taesd_decoder.pth')
 ]
@@ -93,7 +93,7 @@ vae_approx_filenames = [
 
 upscaler_filenames = [
     ('fooocus_upscaler_s409985e5.bin',
-     'https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_upscaler_s409985e5.bin')
+     'https://hingface.co/lllyasviel/misc/resolve/main/fooocus_upscaler_s409985e5.bin')
 ]
 
 
