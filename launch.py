@@ -100,16 +100,6 @@ upscaler_filenames = [
 def download_models():
     for file_name, url in model_filenames:
         load_file_from_url(url=url, model_dir=modelfile_path, file_name=file_name)
-    for file_name, url in lora_filenames:
-        load_file_from_url(url=url, model_dir=lorafile_path, file_name=file_name)
-    for file_name, url in clip_vision_filenames:
-        load_file_from_url(url=url, model_dir=clip_vision_path, file_name=file_name)
-    for file_name, url in controlnet_filenames:
-        load_file_from_url(url=url, model_dir=controlnet_path, file_name=file_name)
-    for file_name, url in vae_approx_filenames:
-        load_file_from_url(url=url, model_dir=vae_approx_path, file_name=file_name)
-    for file_name, url in upscaler_filenames:
-        load_file_from_url(url=url, model_dir=upscale_models_path, file_name=file_name)
 
     load_file_from_url(
         url='https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_expansion.bin',
